@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.MainPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 100vh; */
+}
+
+.repository-details {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.left-column {
+  flex: 0 0 auto; /* Зафиксированная ширина */
+  margin-right: 20px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.owner-name {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.right-column {
+  flex: 1; /* Растягивается на всю доступную ширину */
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.stars {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.updated {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.languages {
+  margin-bottom: 10px;
+}
+
+.languages p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.languages ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.languages li {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
